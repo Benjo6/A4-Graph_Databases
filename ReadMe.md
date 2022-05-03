@@ -1,11 +1,11 @@
-How to make the program work.
+#How to make the program work.
 
 1. Import football.json file into your database.
 
 2. Either change the startup file to change the host name and password or call your host name: neo4j and password: 2wsxcde3.
 
 
-The results of the assignment: [Game 1]
+#The results of the assignment: [Game 1]
 
 Question 1: Who is the most active player (in terms of passing and receiving the ball)?
 
