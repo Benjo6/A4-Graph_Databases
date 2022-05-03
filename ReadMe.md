@@ -7,15 +7,15 @@
 
 # The results of the assignment: [Game 1]
 
-Question 1: Who is the most active player (in terms of passing and receiving the ball)?
+**Question 1: Who is the most active player (in terms of passing and receiving the ball)?**
 
 Answer: Player21 was the most active player in game 1 with 172 actions in the game. (Picture of the result is in the result folder under ActivestPlayer.png)
 
-Question 2: Who has had a central role in the match?
+**Question 2: Who has had a central role in the match?**
 
 Answer: The most central player is Player4 with an average position (Average X + Average Y) of 0.9968 (is the closest result to 1). (Picture of the result is in the result folder under CentralRole.png)
 
-Question 3: Which players have attempted to score?
+**Question 3: Which players have attempted to score?**
 
 Answer: 
 
@@ -54,7 +54,7 @@ Answer:
 (Picture is in the result folder under the name MostShots.png)
 
 
-Question 4: Which team has kept the ball longer?
+**Question 4: Which team has kept the ball longer?**
 
 Answer: The Home team had the ball for longer in this game.
 
@@ -68,7 +68,7 @@ Answer: The Home team had the ball for longer in this game.
    
 (Picture is in the result folder under the name Possession.png)
 
-Question 5: Is there any close ‘societies’ between players (passing the ball to each other)?
+**Question 5: Is there any close ‘societies’ between players (passing the ball to each other)?**
 
 Answer: Look at the picture to see the graph 'soocities' between players (In result folder under the name GraphConnection.png) or enter this cypher script to see the graph yourself in your Neo4J browser:
 
@@ -76,7 +76,7 @@ MATCH (a:Player), (b:Player),(c:Event)
 WHERE c.eventBy=a.name and c.eventTo=b.name and c.type='PASS'
 RETURN a,b,c
 
-Question 6: How close is the connection between two specific players?
+**Question 6: How close is the connection between two specific players?
 
 Answer: Here is the number of passes between players, you can also see the picture of the result in result folder under the name Connection.png.
 
