@@ -76,7 +76,7 @@ MATCH (a:Player), (b:Player),(c:Event)
 WHERE c.eventBy=a.name and c.eventTo=b.name and c.type='PASS'
 RETURN a,b,c
 
-**Question 6: How close is the connection between two specific players?
+**Question 6: How close is the connection between two specific players?**
 
 Answer: Here is the number of passes between players, you can also see the picture of the result in result folder under the name Connection.png.
 
