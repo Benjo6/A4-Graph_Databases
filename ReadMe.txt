@@ -13,7 +13,7 @@ Answer: Player21 was the most active player in game 1 with 172 actions in the ga
 
 Question 2: Who has had a central role in the match?
 
-Answer: The most central player is Player4 with an average position (Average X + Average Y) of 0.9968. (Picture of the result is in the result folder under CentralRole.png)
+Answer: The most central player is Player4 with an average position (Average X + Average Y) of 0.9968 (is the closest result to 1). (Picture of the result is in the result folder under CentralRole.png)
 
 Question 3: Which players have attempted to score?
 
